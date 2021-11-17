@@ -21,7 +21,7 @@
 
 ## Features
 * Triple scene game: title, game, match over
-* Single player mode
+* Single player mode, increasing difficulty
 * Z and X keys for piece rotation
 * Spacebar, Left, Right, Down arrow keys for movement
 * Multiple collision detection
