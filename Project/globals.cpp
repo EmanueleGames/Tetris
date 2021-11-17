@@ -169,6 +169,8 @@ bool game_initialize()
 	//Set the current game state object
 	ptrCurrentState = new clTitleState();
 
+	srand((unsigned int)time(NULL));
+
 	return fl_success;
 }
 

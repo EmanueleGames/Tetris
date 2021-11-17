@@ -162,6 +162,9 @@ void clPlayState::logic()
         // If the current active tetromino had been placed...
         if (mActiveTetromino.isPlaced())
         {
+            //reset the autodrop delay, to avoid the immediate drop of the waiting piece
+            mLastAnimationTime = SDL_GetTicks(); 
+
             //check for completed lines and increase counter
             int lLines = 0;
             lLines = mGrid.checkForLines();

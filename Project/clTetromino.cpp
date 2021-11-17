@@ -591,18 +591,18 @@ bool clTetromino::validPosition(const clStack& grid)
 		{
 			if (mMatrixMoved[i][j]) //if the blocks is part of a tetromino
 			{
-				// We're trying to push outside the stack
+				// We're trying to move outside the stack (left or right)
 				if ( (mX+i) < 0 || (mX+i) >= STACK_WIDTH )
+				{
+					return false;
+				}
+				// The teromino is above the stack or has reached the its end
+				if ( (mY + j) < 0 || (mY + j) >= STACK_HEIGHT)
 				{
 					return false;
 				}
 				// The tetromino overlaps with part of the stack
 				if (!grid.isBlockFree(mX + i, mY + j))
-				{
-					return false;
-				}
-				// The teromino has reached the end of the stack
-				if ((mY + j) >= STACK_HEIGHT)
 				{
 					return false;
 				}
