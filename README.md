@@ -29,6 +29,10 @@
 * VSync enabled
 * Average FPS counter
 
+
+There are several variants of Tetris, this one in particular uses Super Rotation System and Super Wallkicks.  
+You can read more about these features here:  
+https://tetris.fandom.com/wiki/SRS
 <br/>
 <br/>
 
