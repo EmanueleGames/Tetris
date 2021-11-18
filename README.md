@@ -25,7 +25,7 @@
 * Z and X keys for piece rotation
 * Spacebar, Left, Right, Down arrow keys for movement
 * Multiple collision detection
-* Basic music & sounds
+* Basic music & sound effects
 * VSync enabled
 * Average FPS counter
 
