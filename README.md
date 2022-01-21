@@ -14,7 +14,7 @@
 > Tetris 2D videogame.  
 > Multiple scene implemented with Object Oriented State Machine:  
 > inheritance, polymorphism, operator overloading.  
-> Single Player, scaling difficulty.  
+> Single Player, increasing difficulty.  
 > Keyboard control Movement, multiple collision detection.  
 > Multiple source files. 1280x720 pixels resolution.  
 
