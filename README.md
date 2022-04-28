@@ -15,7 +15,7 @@
 > Multiple scene implemented with Object Oriented State Machine:  
 > inheritance, polymorphism, operator overloading.  
 > Single Player, increasing difficulty.  
-> Keyboard control Movement, multiple collision detection.  
+> Keyboard control movement, multiple collision detection.  
 > Multiple source files. 1280x720 pixels resolution.  
 
 
