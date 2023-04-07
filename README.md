@@ -11,20 +11,17 @@
 **Language:** &nbsp;&nbsp; C++  
 **Libraries:** &nbsp;&nbsp;&nbsp;&nbsp; SDL2 (Simple DirectMedia Layer)
 <br/>
-> Multiple scene implemented with Object Oriented State Machine:  
-> inheritance, polymorphism, operator overloading.  
-> Keyboard control movement, multiple collision detection.  
-> Multiple source files. 1280x720 pixels resolution.  
+> Multiple scene implemented with Object-Oriented State Machine  
+> Inheritance, polymorphism, operator overloading  
+> Multiple collision detection, motion and logic  
+> Sound effects. VSync active. Average FPS counter  
 
 
 ## Features
 * Triple scene game: title, game, match over
-* Single player mode, increasing difficulty
+* Single player, single level with increasing difficulty
 * Z and X keys for piece rotation
 * Spacebar, Left, Right, Down arrow keys for movement
-* Basic music & sound effects
-* VSync enabled
-* Average FPS counter
 
 
 There are several variants of Tetris, this one in particular uses Super Rotation System and Super Wallkicks.  
